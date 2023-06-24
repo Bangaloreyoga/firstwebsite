@@ -1,0 +1,17 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background: yellowgreen;
+    padding: 20px;
+    height: 960px;
+}
+.first {
+    background: lightblue;
+    border-right: 1px solid lightpink;
+   grid-row: 1/ 6;
+}
+.second{
+    background-color: hsl(195, 60%, 74%);
+    border-bottom: 1px solid lightpink;
+   grid-column: 2/6;
+}

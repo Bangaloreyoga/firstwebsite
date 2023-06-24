@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main, html {
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    display: grid;
+    align-items: center;
+}
+.content {
+    width: 300px;
+    height: 350px;
+    background: aqua;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.one {
+    width: 100%;
+    height: 120px;
+}
+.two {
+    width: 100%;
+    height: 120px;
+    background: white;
+}
+img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+.two p {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+.three {
+    background: white;
+    width: 100%;
+    height: 120px;
+}
+.three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

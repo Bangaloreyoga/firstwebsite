@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var newNos = [1, 3, 3, 4, 0, 0, 5, 1];
+
+      function returnDuplicates(newNos) {
+        var duplicates = [];
+        newNos.forEach((num) => {
+          if (
+            newNos.filter((n) => n == num).length > 1 &&
+            duplicates.indexOf(num) == -1
+          ) {
+            duplicates.push(num);
+          }
+        });
+
+        return duplicates;
+      }
+
+      console.log(returnDuplicates(newNos));
+    </script>
+  </body>
+</html>

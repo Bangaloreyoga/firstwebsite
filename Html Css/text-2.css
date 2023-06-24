@@ -1,0 +1,90 @@
+.main, html {
+    background-color: lavender;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first {
+    width: 960px;
+    height: 800px;
+    position: relative;
+    top: 130px;
+}
+.second {
+    width: 250px;
+    background: white;
+    height: 545px;
+    border-radius: 5px;
+}
+.one {
+    background: blueviolet;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+}
+.two {
+    background: lightslategray;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.three{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.four{
+    background-color: black;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+}
+.left {
+    display: flex;
+    justify-content: space-evenly;
+}
+.right {
+    display: flex;
+    justify-content: space-evenly;
+     position: relative;
+    top: 40px; 
+}
+.img img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.header {
+    font-size: 10px;
+    position: relative;
+    bottom: 12px;
+}
+.up {
+    display: flex;
+    gap: 15px;
+}
+h3 {
+    position: relative;
+    bottom: 8px;
+    opacity: 0.5;
+}
+.single {
+    padding: 15px;
+    color: white;
+}
+h1 {
+    position: relative;
+    bottom: 36px;
+    font-size: 25px;
+}
+p {
+    position: relative;
+    bottom: 35px;
+    opacity: 70%;
+}
